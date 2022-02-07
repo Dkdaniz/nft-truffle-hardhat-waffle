@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "commit": "cd src/truffle && truffle migrate && truffle test",
-    "truffle:test": "cd src/truffle && truffle test",
+    "test": "cd src/truffle && truffle test",
     "generate-types": "cd src/truffle && npx typechain --target=truffle-v5 'build/contracts/*.json'",
-    "migrate": "tsc -p ./tsconfig.migrate.json --outDir ./src/truffle/migrations && cd src/truffle && truffle migrate",
+    "migrate": "tsc -p ./tsconfig.migrate.json --outDir ./src/truffle/migrations",
     "typecheck": "tsc --noEmit",
     "postinstall": "cd src/truffle && truffle compile && yarn generate-types"
   },
