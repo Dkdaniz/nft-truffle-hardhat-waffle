@@ -21,8 +21,14 @@ Install the extension with name:
 Solidity by Juan Blanco
 ```
 
-## Scripts
+## Run
 
+- Step 1
+```bash
+yarn migrate
+```
 
-
-
+- Step 2
+```bash
+yarn migrate
+```
