@@ -1,6 +1,4 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["./src/truffle/migrations-ts/*.ts", "./types/**/*.ts"],
-  "types": ["@types/node", "@types/chai", "@types/mocha"],
-  "typeRoots": ["./node_modules/@types", "./types"],
+  "include": ["./src/truffle/migrations-ts/*.ts", "./types/**/*.ts"]
 }

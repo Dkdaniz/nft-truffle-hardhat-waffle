@@ -1,5 +1,5 @@
 {
     "*.sol": [
-      "cd src/truffle && truffle test"
+      "npm run-script commit"
     ]
 }
