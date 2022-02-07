@@ -1,6 +1,6 @@
 {
     "*.ts": [
-       "npm run-script migrate",
-        "npm run-script truffle:test"
+      "npm run-script migrate",
+      "npm run-script truffle:test"
     ]
 }
