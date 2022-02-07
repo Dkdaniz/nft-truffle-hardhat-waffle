@@ -29,7 +29,7 @@ contract('ReportManager', accounts => {
 
     assert.equal(
       errorResponse?.reason,
-      'ERC1155: mint to the zero address'
+      'ERC1155: mint to the zero addre'
     )
   })
 

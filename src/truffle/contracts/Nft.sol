@@ -23,8 +23,4 @@ contract Nft is ERC1155, Ownable {
 
       return true;
     }
-
-    function hashDocLenght(bytes memory hashDoc) external pure returns (uint256){
-      return hashDoc.length;
-    }
 }
