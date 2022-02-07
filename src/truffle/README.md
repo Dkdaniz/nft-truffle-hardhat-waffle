@@ -30,5 +30,5 @@ yarn migrate
 
 - Step 2
 ```bash
-yarn migrate
+yarn test
 ```
