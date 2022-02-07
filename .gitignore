@@ -1,5 +1,12 @@
 node_modules
+migrations
+build
+types
+artifacts
+cache
 dist
 coverage
 *.eslintcache
 .DS_Store
+
+

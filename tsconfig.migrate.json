@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["./src/truffle/migrations-ts/*.ts", "./types/**/*.ts"]
+}
