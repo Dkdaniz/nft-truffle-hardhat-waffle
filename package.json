@@ -1,0 +1,8 @@
+{
+  "name": "nft-truffle-hardhat-waffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Dkdaniz/nft-truffle-hardhat-waffle",
+  "author": "Daniel Marques <daniel@descentralizado.com.br>",
+  "license": "MIT"
+}
