@@ -18,7 +18,7 @@ contract Nft is ERC1155, Ownable {
       bytes memory btsNull = new bytes(0);
       require(keccak256(btsNull) != keccak256(hashDoc), "ERC1155: hashDoc dont be the zero");
       require(hashDoc.length == 40, "ERC1155: hashDoc invalid");
-
+      
       _mint(to, tokenId, 1, hashDoc);
 
       return true;
