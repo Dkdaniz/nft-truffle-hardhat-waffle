@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "./ERC1155.sol";
 
 contract Nft is ERC1155, Ownable {
-    constructor() ERC1155("https://host/api/item/{id}.json") {}
+    constructor() ERC1155("https://adapar/api/item/{id}.json") {}
 
     /**
      * @dev insert a new report.
@@ -19,10 +19,8 @@ contract Nft is ERC1155, Ownable {
       require(keccak256(btsNull) != keccak256(hashDoc), "ERC1155: hashDoc dont be the zero");
       require(hashDoc.length == 40, "ERC1155: hashDoc invalid");
 
-
       _mint(to, tokenId, 1, hashDoc);
       
-
       return true;
     }
 }
