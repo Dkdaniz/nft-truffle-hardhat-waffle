@@ -1,5 +1,5 @@
 {
-    "*.ts": [
+    "*.sol": [
       "npm run-script migrate",
       "npm run-script truffle:test"
     ]
