@@ -20,6 +20,7 @@ contract Nft is ERC1155, Ownable {
       require(hashDoc.length == 40, "ERC1155: hashDoc invalid");
 
       _mint(to, tokenId, 1, hashDoc);
+      
 
       return true;
     }
